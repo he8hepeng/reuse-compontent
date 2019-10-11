@@ -43,6 +43,11 @@ npm run lib
 npm adduser
 ```
 
+### 无法登陆公司npm情况
+```
+npm adduser --registry http://npm-registry.cloud.thunisoft.com/repository/npm-releases/
+```
+
 ### 发布
 ```
 npm publish
