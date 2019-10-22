@@ -2,18 +2,22 @@
  * @Author: HePeng
  * @Date: 2019-09-18 14:09:07
  * @Last Modified by: HePeng
- * @Last Modified time: 2019-09-18 14:28:51
+ * @Last Modified time: 2019-10-20 12:48:04
  */
 // packages / index.js
 
 // 导入单个组件
 import canvasboll from './canvasBoll/index'
-import Textarea from './textarea/index'
+import Diffusion from './diffusion/index'
+import canvasBGLZ from './canvasBG/index'
+import DsjButtom from './dsj_button/index'
 
 // 以数组的结构保存组件，便于遍历
 const components = [
   canvasboll,
-  Textarea
+  Diffusion,
+  canvasBGLZ,
+  DsjButtom
 ]
 
 // 定义 install 方法

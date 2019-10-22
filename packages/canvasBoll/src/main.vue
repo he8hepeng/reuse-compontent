@@ -5,10 +5,12 @@
 </template>
 <script>
 export default {
-  name: 'DsjCanvasBoll',
+  name: 'dsj-canvasboll',
   props: {
     score: {
-      default: 100
+      type: [ String, Number ],
+      default: 100,
+      required: true
     },
     color: {
       type: Array,

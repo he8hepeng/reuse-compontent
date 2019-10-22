@@ -1,8 +1,8 @@
 {
   "name": "dsj-reuse",
-  "version": "0.1.3",
-  "description": "一个简单的3d数据球",
-  "main": "lib/canvas-boll.umd.min.js",
+  "version": "0.0.3",
+  "description": "大数据复用动画",
+  "main": "lib/dsj-reuse.umd.min.js",
   "author": "何鹏",
   "private": false,
   "license": "MIT",
@@ -10,10 +10,12 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "lib": "vue-cli-service build --target lib --name canvas-boll --dest lib packages/index.js"
+    "lib": "vue-cli-service build --target lib --name dsj-reuse --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "element-ui": "^2.12.0",
+    "jquery": "^3.4.1",
     "vue": "^2.6.10"
   },
   "devDependencies": {
